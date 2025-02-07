@@ -1,0 +1,40 @@
+.header-top-bg{
+    background-color: #262626;
+  }
+  .nav-item.dropdown {
+    position: relative;
+  
+    &:hover .dropdown-menu {
+      display: block;
+    }
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    border-radius: 8px;
+  }
+  
+  .dropdown-item {
+    padding: 10px 15px;
+    color: #0d0e0f;
+    font-weight: 500;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #1e89ec;
+    color: #e3e9f1;
+  }
+  
+  .fotter-bg {
+    background-image: url('/image/footer-bg-2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  

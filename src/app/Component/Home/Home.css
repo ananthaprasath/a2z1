@@ -1,0 +1,86 @@
+
+.videoContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .videoBackground {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .videoOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .videoContent {
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    z-index: 2;
+  }
+  
+  .videoContent h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #04c0fa;
+  }
+  
+  .description {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .actionButtons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #1550f1;
+    border: none;
+  }
+  
+  .btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+  }
+  .bottom-logos {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   }
+   .logo-img {
+    width: 80px; 
+    height: 80px; 
+    object-fit: contain;
+  }
+  .dflex{
+    display: flex;
+    justify-content: space-between;
+  }
+   
+  

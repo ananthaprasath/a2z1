@@ -1,42 +1,70 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Jost", sans-serif;
 }
 
-* {
-  box-sizing: border-box;
+.accordion-button {
+  background-color: #ffffff;
+  color: #060708;
+  border: 1px solid #ddd;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+.accordion-item {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.bg-light {
+  background-color: #f3f7fb;
+}
+
+
+.homercs-section {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-section .title {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.text-section .highlight {
+  color: #17a2b8; /* Bootstrap's 'text-info' color */
+}
+
+.text-section .description {
+  color: #6c757d; /* Bootstrap's 'text-muted' color */
+  margin-bottom: 30px;
+}
+
+.features-list {
+  list-style: none;
   padding: 0;
-  margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.feature-item .icon {
+  color: #28a745; /* Bootstrap's 'text-success' color */
+  margin-right: 10px;
 }
+
+.image {
+  width: 100%;
+}
+

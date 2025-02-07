@@ -1,0 +1,30 @@
+.head1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #203239;
+  }
+  
+  .para-blog {
+    color: #555;
+  }
+  
+  .para-color1 {
+    color: #203239;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card-header {
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
