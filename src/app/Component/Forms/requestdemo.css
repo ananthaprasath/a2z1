@@ -1,0 +1,17 @@
+.timeline{
+top: 25%;
+left: 6%;
+width: 88%;
+
+}
+.rqdemo{
+    width:50%;
+    
+}
+@media (max-width: 862px){
+    .rqdemo{
+        width:100%;
+
+    }
+}
+

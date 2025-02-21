@@ -30,6 +30,62 @@
     background-color: #1e89ec;
     color: #e3e9f1;
   }
+  /* Header Styling */
+header.sticky-top {
+  background-color: rgba(255, 255, 255, 0.95);
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+header.sticky-top.scrolled {
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Aligns navigation closer to logo */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Moves dropdowns closer to the logo */
+.nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+/* Ensure dropdowns show on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Dropdown Item Styling */
+.dropdown-item {
+  padding: 10px 15px;
+  color: #0e1114;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #1e89ec;
+  color: #e3e9f1;
+}
+
   
   .fotter-bg {
     background-image: url('/image/footer-bg-2.jpg');
@@ -37,4 +93,23 @@
     background-position: center;
   }
   
+  /* Custom Dropdown Width */
+.dropdown-large {
+  min-width: 500px; /* Adjust width as needed */
+}
+
+/* Align Items Properly */
+.dropdown-item {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  transition: 0.2s ease-in-out;
+}
+
+/* Hover Effect */
+.dropdown-item:hover {
+  background-color: #007bff; /* Blue background */
+  color: white;
+}
+
   

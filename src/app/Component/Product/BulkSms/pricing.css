@@ -1,0 +1,103 @@
+/* Background gradient for the pricing container */
+.bg2 {
+    background: linear-gradient(120deg, #e0f7fa, #fff9e7, #ffece6);
+    padding: 2rem 0;
+  }
+  
+  /* Tabs styling */
+  .tabs-container .tab-btn {
+    color: #0f4c81;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .tabs-container .tab-btn.active-tab {
+    background-color: #097bdf;
+    color: #fff;
+  }
+  
+  .tabs-container .tab-btn:hover {
+    background: linear-gradient(120deg, #e0f7fa, #fff9e7, #ffece6);
+    color: #000;
+  }
+  
+  /* Card styling */
+  .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    font-size: 1.2rem;
+    padding: 1rem;
+    background: #097bdf;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-body h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .card-body p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .card-body ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .card-body ul li {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-body ul li .fa-check-circle {
+    color: #28a745;
+    margin-right: 0.5rem;
+  }
+  
+  .card-body ul li .fa-question-circle {
+    margin-left: auto;
+    color: #6c757d;
+  }
+  
+  .card-body .btn {
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    background: #097bdf;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-body .btn:hover {
+    background-color: #065a9c;
+  }
+  
+  .industry-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .industry-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(8, 88, 236, 0.15);
+  }
+  

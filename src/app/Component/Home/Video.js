@@ -52,7 +52,7 @@ const Video = () => {
       <div className='container'>
        <div className=" bottom-logos text-center mt-5">
         <h3 className='text-white fw-bold'>Out TrustedBrands</h3>
-         <div className="dflex " style={{justifyContent:'space-around'}}>
+         <div className="dflex mb-4 " style={{justifyContent:'space-around'}}>
          <img className="m-2  logo-img" src="/image/motherhood.png" alt="Background Image"/>
          <img className="m-2  logo-img" src="/image/isk.png" alt="Background Image"/>
          <img className="m-2  logo-img" src="/image/ping4sms-client1.webp" alt="Background Image"/>

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "How WhatsApp Chatbots Can Revolutionize Customer Support for Indian SMEs",
+    "componentKey": "Dec13",
+    "slug": "how-whatsapp-chatbots-can-revolutionize-customer-support-for-indian-smes",
+    "category": "WhatsApp Service",
+    "date": "2024-02-18",
+    "description": "Learn how WhatsApp chatbots are changing customer support in India.",
+    "image": "/images/blog.jpg"
+  },
+  {
+    "id": 2,
+    "title": "What is WhatsApp Business API? A Complete Guide for Indian Businesses",
+    "componentKey": "Dec14",
+    "slug": "what-is-whatsapp-business-api-complete-guide-indian-businesses",
+    "category": "WhatsApp Service",
+    "date": "2024-12-14",
+    "description": "Learn about WhatsApp Business API and how it empowers Indian businesses to streamline communication, boost sales, and enhance customer support.",
+    "image": "/images/blog.jpg"
+  }
+]
