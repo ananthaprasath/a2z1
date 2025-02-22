@@ -7,7 +7,9 @@ import Apisupport from './Apisupport'
 import StepsSection from './StepsSection'
 import Features from './Features'
 import SocialMedia from './SocialMedia'
-import Faq from './Faq'
+import FAQHome from '../../Resources/Faq/FAQHome'
+import { Whatsapp } from '../../Resources/Faq/FaqData'
+
 const WhatsappApi = () => {
   return (
     <div>
@@ -19,7 +21,7 @@ const WhatsappApi = () => {
         <StepsSection/>
         <Features/>
         <SocialMedia/>
-        <Faq/>
+        <FAQHome data={Whatsapp} />
     </div>
   )
 }

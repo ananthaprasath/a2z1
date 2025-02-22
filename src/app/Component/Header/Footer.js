@@ -95,7 +95,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-white text-decoration-none hover  pt-2">
+                <Link href="/blogs" className="text-white text-decoration-none hover  pt-2">
                   <FontAwesomeIcon icon={faAngleDoubleRight} className="me-2" />
                   Blogs
                 </Link>

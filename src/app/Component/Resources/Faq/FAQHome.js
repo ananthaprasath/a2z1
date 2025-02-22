@@ -17,7 +17,7 @@ const FAQHome = ({ data }) => {
   const { title, subtitle, faqs } = data;
 
   return (
-    <div className="bg-light">
+    <div className="bg2">
       <div className="container py-5">
         {/* Title Section */}
         <div className="text-center mb-4">

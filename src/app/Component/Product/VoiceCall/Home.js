@@ -15,12 +15,7 @@ const Home = () => {
   }, []);
 
   return (
-    <section
-      className="py-5"
-      style={{
-        background: "linear-gradient(120deg, #bcf0f7, #f5eac9, #fce1d9)",
-      }}
-    >
+    <section className="py-5 bg2">
       <div className="container">
         <div className="row align-items-center aos para-color">
           {/* Left Content */}

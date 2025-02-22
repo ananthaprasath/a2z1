@@ -44,7 +44,7 @@ const Pricing = () => {
   ];
 
   return (
-    <div className="py-5">
+    <div className="py-5 bg-light">
       <div className="container">
         <h2 className="text-center py-3">
           Unlock the Power of WhatsApp Business API for Your Business

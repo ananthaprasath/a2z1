@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body {
     font-family: 'Jost', sans-serif;
+ 
+}
+.fw-bold {
+  font-weight: 700 !important;
 }
 *{
     padding: 0;
@@ -36,6 +40,11 @@ body {
   overflow: hidden;
 }
 
+.bg{
+  background-image: url('/image/breadcrumb-1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
 .para-color1{
   font-size: 16px;
@@ -62,7 +71,11 @@ body {
   font-family: 'inter' !important;
   line-height: 40px;
 }
-
+.price-bg{
+  background-image: url('/image/pricing-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
 .bg1{
   background-color: rgb(243, 247, 251);

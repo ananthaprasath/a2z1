@@ -35,7 +35,7 @@ const Dec14 = () => {
           <p className='para-color'>Technology has advanced so much in the present generation that everyone knows how to install an app on their phone or computer. Therefore, it is of no surprise that companies, especially in India, have taken to WhatsApp fully to reach clients and customers. WhatsApp boasting over 487 million active users is fast becoming the most preferred communication and even engagement services provider in the country. But how can businesses scale this communication effectively? Here comes the WhatsApp Business API. </p>
           <p className='para-color'>This does not however take away the fact that the API makes it possible for incorporation of sales management, customer service, and automation of messages, while all this can happen with the use of WhatsApp. In this guide, we will explain everything on WhatsApp Business API and its importance and features and how it can be useful for business growth for Indian businesses. </p>
        <div>
-        <img className='w-100 mt-3' width="px" height={"auto"} src="/bimages/how-whatsApp-chatbots(2).jpg" alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"} src="/Images/What is WhatsApp Business API_   Complete Guide for Indian Businesses (2).jpg" alt="Descriptive alt text" />
                
              </div>
           <div className="para-color" >
@@ -78,7 +78,7 @@ const Dec14 = () => {
               </li>
             </ul>
             <div>
-        <img className='w-100 mt-3' width="px" height={"auto"} src="/bimages/how-whatsApp-chatbots(2).jpg" alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"} src="/Images/What is WhatsApp Business API_   Complete Guide for Indian Businesses (3).jpg" alt="Descriptive alt text" />
 
                   </div>
      </div>
@@ -134,7 +134,7 @@ const Dec14 = () => {
               </li>
             </ul>
             <div>
-        <img className='w-100 mt-3' width="px" height={"auto"} src="/bimages/how-whatsApp-chatbots(2).jpg" alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"} src="/Images/What is WhatsApp Business API_   Complete Guide for Indian Businesses (4).jpg" alt="Descriptive alt text" />
 
                   </div>
       </div>

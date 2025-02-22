@@ -8,15 +8,15 @@ const servicesData = [
     id: 1,
     title: "Promotional SMS",
     description:
-      "Enhance your business reach with our Promotional SMS services. Ideal for marketing campaigns, announcements, and special offers.",
+      "To boost your business, promotional SMS is a must for your business. You can bring drastic changes to your existing business. If you are planning to establish new trade or business then too promotional SMS service can help you establish well in this field. With so many companies in the market, running a business is not an easy job, but with us, you can become the game changer of your business.",
     points: [
       "No Delivery on DND numbers",
-      "6-character sender ID like 'INDSMS'",
-      "Delivery between 9 am - 9 pm",
+      "6 Alphabet sender id like 'INDSMS'",
+      "Deliver between 9 am - 9 pm",
       "No validity for any SMS pack",
-      "Character limit of 160 characters",
+      "The character limit 160 characters",
       "100% advance payment",
-      "Free access to SMS platform",
+      "Access to SMS platform is free forever",
     ],
     icon: "/image/feature-icon/icon-5.png",
     animation: "zoom-in-right",
@@ -25,15 +25,15 @@ const servicesData = [
     id: 2,
     title: "Transactional SMS",
     description:
-      "Send important alerts and notifications with our Transactional SMS service. Perfect for OTPs and informational messages.",
+      "Transactional route can only be used for sending transactional SMS such as OTPs and alerts to your registered users. Messages can be sent 24x7 from your own 6-character Sender ID(s). To configure a transactional route, create your account today. No setup costs involved!.",
     points: [
-      "Delivery on DND numbers",
-      "Instant delivery reports",
-      "18% GST Extra",
-      "6-character sender ID like 'INDSMS'",
-      "Available 24x7",
+      "Delivery on DND numbers also",
+      "Instant delivery report",
+      "18% GST Extra.",
+      "6 Alphabet sender id like 'INDSMS'",
+      "Can be sent 24 x 7",
       "No validity for any SMS pack",
-      "100% advance payment",
+      "100% advance payment.",
     ],
     icon: "/image/feature-icon/icon-6.png",
     animation: "zoom-in-right",
@@ -42,13 +42,13 @@ const servicesData = [
     id: 3,
     title: "OTP SMS",
     description:
-      "Secure your transactions with our OTP SMS service, ensuring timely delivery of one-time passwords for verification.",
+      "OTP SMS services are used in business where there are various OTP SMS for new user registration, forget password, change password, reset password, etc. It contains a mobile verification code which comes through OTP SMS on a particular mobile number. Thus we can say that bulk SMS for OTP is very useful for all account-related transactions. OTP is the most secure platform for online transactions which provides two-factor authentication and which help to makes our online activities safe.",
     points: [
-      "DND & Non-DND delivery",
-      "24x7 availability",
-      "High priority route",
-      "Lifetime validity",
-      "Custom sender ID",
+      "DND & Non-DND",
+      "24x7 Timing",
+      "High Priority Route",
+      "Lifetime Validity",
+      "Sender ID",
       "Retry option",
     ],
     icon: "/image/feature-icon/icon-7.png",
@@ -60,34 +60,34 @@ const Services = () => {
   const [selectedService, setSelectedService] = useState(servicesData[0]);
 
   return (
-    <section className="py-5 mb-2 bg-light">
+    <section
+      className="py-5 mb-2 bg2"
+      style={{
+        // backgroundColor: "#F3F7FB",
+      }}
+    >
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row align-items-center aos">
           {/* Left Image Section */}
-          <div className="col-md-6">
-          <div style={{ width: "100%", height: "650px", position: "relative" }}>
-  <Image
+          <div className="col-md-6" data-aos="zoom-in-right">
+          <Image
     src="/image/feature-icon/hero-girl.png"
     alt="Bulk SMS Services"
     fill
-    style={{ borderRadius: "10px", objectFit: "contain" }}
+    style={{ borderRadius: "10px" }}
   />
-</div>
-
-
           </div>
 
           {/* Right Content Section */}
-          <div className="col-md-6 col-12">
+          <div className="col-md-6 col-12"  data-aos="zoom-in-left">
             <h5 className="text-primary mb-2">Bulk SMS</h5>
             <h2 className="fw-bold mb-4">Our Bulk SMS Services</h2>
-
             {/* Tabs with Custom Icons */}
             <div className="d-flex mb-3">
               {servicesData.map((service) => (
                 <button
                   key={service.id}
-                  className={`btn btn-sm mx-2 ${
+                  className={`btn btn-sm mx-2  ${
                     selectedService.id === service.id
                       ? "btn-primary text-white"
                       : "btn-outline-primary"
@@ -100,12 +100,13 @@ const Services = () => {
                   }}
                   onClick={() => setSelectedService(service)}
                 >
-                  <Image
+                  <img
                     src={service.icon}
-                    alt={service.title}
-                    width={24}
-                    height={24}
-                    style={{ marginRight: "10px" }}
+                    alt={service.title} width="24px" height={"24px"}
+                    style={{
+                     
+                      marginRight: "10px",
+                    }}
                   />
                   {service.title}
                 </button>
@@ -113,12 +114,18 @@ const Services = () => {
             </div>
 
             {/* Content */}
-            <div key={selectedService.id}>
+            <div
+              key={selectedService.id}
+              data-aos={selectedService.animation} // Dynamic animation
+            >
               <h3 className="fw-bold">{selectedService.title}</h3>
               <p className="text-muted">{selectedService.description}</p>
               <ul>
                 {selectedService.points.map((point, index) => (
-                  <li key={index} className="text-muted">
+                  <li
+                    key={index}
+                    className="text-muted para-color2"
+                  >
                     <i
                       className="fas fa-check me-2"
                       style={{ color: "#007bff" }}
@@ -128,6 +135,7 @@ const Services = () => {
                 ))}
               </ul>
             </div>
+
           </div>
         </div>
       </div>

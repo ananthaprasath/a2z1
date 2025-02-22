@@ -1,14 +1,213 @@
 [
   {
-    "id": 1,
-    "title": "How WhatsApp Chatbots Can Revolutionize Customer Support for Indian SMEs",
-    "componentKey": "Dec13",
-    "slug": "how-whatsapp-chatbots-can-revolutionize-customer-support-for-indian-smes",
+    "id": 22,
+    "title": "A2Z SMS Voice Calls: Elevating Your Marketing Strategy ",
+    "componentKey": "Jan10",
+    "slug": "a2Z-sMS-voice-calls-elevating-your-marketing-strategy",
+    "category": "Voice Call",
+    "date": "2024-02-18",
+    "description": "Explore how A2Z SMS’s voice call services can transform your marketing with personalized, direct customer communication. Drive engagement and boost sales.",
+    "image": "/Images/Why Choose Voice Calls for Marketing Success.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Scalable OTP Services for Secure Customer Verification A2Z SMS ",
+    "componentKey": "Jan9",
+    "slug": "scalable-oTP-services-for-secure-customer-verification-a2Z-sMS",
+    "category": "OTP Service",
+    "date": "2024-02-18",
+    "description": "DEnhance customer verification with A2Z SMS's scalable OTP services, ensuring secure and seamless authentication for your business.",
+    "image": "/Images/Scalable OTP Services_ Ensure Seamless Customer Verification with A2Z SMS.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Reliable Voice Call Solutions for Seamless Communication ",
+    "componentKey": "Jan8",
+    "slug": "reliable-voice-call-solutions-for-seamless-communication",
+    "category": "Voice Call",
+    "date": "2024-02-18",
+    "description": "Discover A2ZSMS's voice call marketing services in Bangalore. Enjoy 100% delivery, API integration, and lifetime validity for enhanced customer engagement.",
+    "image": "/Images/Reliable voice call solutions for seamless communication.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Best Bulk SMS Provider In Bangalore For Businesses ",
+    "componentKey": "Jan7",
+    "slug": "best-bulk-sMS-provider-in-bangalore-for-businesses",
+    "category": "Bulk SMS Service",
+    "date": "2024-02-18",
+    "description": "A2ZSMS, based in Bengaluru, offers premium bulk SMS services designed to enhance customer engagement with tailored communication solutions for all business needs.",
+    "image": "/Images/Best Bulk SMS Provider In Bangalore For Businesses.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Boost Business Reach with Reliable Bulk SMS Services ",
+    "componentKey": "Jan6",
+    "slug": "boost-business-reach-with-reliable-bulk-sMS-services",
+    "category": "Bulk SMS Service",
+    "date": "2024-02-18",
+    "description": "Discover cost-effective bulk SMS solutions from A2ZSMS for marketing and alerts. Enjoy instant delivery and reliable communication for your business growth.",
+    "image": "/Images/Boost Business Reach, with Reliable Bulk SMS Services.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Secure Your Business with A2Z SMS OTP Services ",
+    "componentKey": "Jan5",
+    "slug": "secure-your-business-with-a2z-sms-otp-services",
+    "category": "OTP Service",
+    "date": "2024-02-18",
+    "description": "Ensure secure customer transactions with A2ZSMS's OTP services. Explore reliable OTP solutions with fast delivery to protect your business and enhance security.",
+    "image": "/Images/Secure Your Business with A2Z SMS OTP Services.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Why Travel Businesses in 2025 Need WhatsApp API for Growth ",
+    "componentKey": "Jan4",
+    "slug": "why-travel-businesses-in-2024-need-whatsApp-aPI-for-growth",
     "category": "WhatsApp Service",
     "date": "2024-02-18",
-    "description": "Learn how WhatsApp chatbots are changing customer support in India.",
-    "image": "/images/blog.jpg"
+    "description": "Discover how WhatsApp API helps travel businesses boost bookings, improve communication, and enhance customer experience in 2025 with innovative solutions.",
+    "image": "/Images/Why Travel Businesses in 2025 Need WhatsApp API for Growth.jpg"
   },
+  {
+    "id": 15,
+    "title": "Building Scalable Customer Support with WhatsApp API and Chatbots in Bangalore ",
+    "componentKey": "Jan3",
+    "slug": "building-scalable-customer-support-with-whatsApp-aPI-and-chatbots-in-bangalore",
+    "category": "WhatsApp Service",
+    "date": "2024-02-18",
+    "description": "Learn how WhatsApp API and chatbots transform customer support in Bangalore. Startups can reduce costs, scale operations, and improve engagement efficiently.",
+    "image": "/Images/Building Scalable Customer Support with WhatsApp API  and Chatbots in Bangalore.jpg"
+  },
+  {
+    "id": 14,
+    "title": "How WhatsApp Chatbots Drive Lead Generation for Indian Startups ",
+    "componentKey": "Jan2",
+    "slug": "how-whatsApp-chatbots-drive-lead-generation-for-indian-startups",
+    "category": "WhatsApp Service",
+    "date": "2024-02-18",
+    "description": "Explore how WhatsApp chatbots help Indian startups generate leads. Learn about their practical applications, key benefits, and success stories in this guide.",
+    "image": "/Images/How WhatsApp Chatbots Drive Lead Generation for Indian Startups.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Top 5 Chatbot Platforms for WhatsApp Business API Developers ",
+    "componentKey": "Jan1",
+    "slug": "top-5-chatbot-platforms-for-whatsApp-business-aPI-developers",
+    "category": "WhatsApp Service",
+    "date": "2024-02-18",
+    "description": "Discover the top chatbot platforms tailored for WhatsApp Business API developers. Explore their features, benefits, and how they can streamline your customer interactions.",
+    "image": "/Images/Top 5 Chatbot Platforms for WhatsApp Business API Developers.jpg"
+  },
+  {
+    "id": 12,
+    "title": "WhatsApp Business API Use Cases Transforming Healthcare in India",
+     "componentKey": "Dec24",
+    "description": "Explore how WhatsApp Business API is revolutionizing the healthcare industry in India. Learn about its use cases in patient care, appointment management, and beyond.",
+    "category": "WhatsApp Service",
+    "date": "2024-12-24",
+   "slug": "whatsApp-business-aPI-use-cases-transforming-healthcare-in-india",
+    "image":"/Images/WhatsApp Business API Use Cases Transforming Healthcare in India.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Why WhatsApp Business API is Revolutionizing E-commerce in India",
+     "componentKey": "Dec23",
+    "description": "Discover why WhatsApp Business API is shaping the future of e-commerce in India. Learn how this tool enhances customer engagement, streamlines operations, and drives growth.",
+    "category": "WhatsApp Service",
+    "date": "2024-12-23",
+   "slug": "why-whatsApp-business-aPI-is-revolutionizing-e-commerce-in-india",
+    "image":"/Images/Why WhatsApp Business API is Revolutionizing  E-commerce in India.jpg"
+  },
+  
+  
+  
+{
+  "id":10,
+  "title": "WhatsApp Business API Integration Essential tools and platforms for small business growth",
+  "componentKey": "Dec22",
+  "slug": "whatsApp-business-aPI-integration-essential-tools-and-platforms-for-small-business-growth",
+  "category": "WhatsApp Service",
+  "date": "2024-12-22",
+  "description": "Discover the top tools and platforms for integrating WhatsApp Business API. Learn how to streamline communication, enhance customer engagement, and grow your business effortlessly." ,
+   "image":"/Images/WhatsApp Business API Integration_ Essential Tools and Platforms.jpg"
+},
+ 
+  {
+    "id":9,
+    "title": "How Bangalore's Small Businesses are Unlocking Growth with WhatsApp Business API",
+    "componentKey": "Dec21",
+    "slug": "how-bangalore's-small-businesses-are-unlocking-growth-with-whatsApp-business-aPI",
+    "category": "WhatsApp Service",
+    "date": "2024-12-21",
+    "description": "Discover how small businesses in Bangalore are using WhatsApp Business API to streamline communication, build stronger customer relationships, and drive growth." ,
+     "image":"/Images/How Bangalore’s  Small Businesses Are Leveraging WhatsApp Business API  for Growth.jpg"
+   },
+  
+  {
+    "id": 8,
+    "title": "10 Game-Changing Marketing Strategies with WhatsApp Business API",
+    "componentKey": "Dec20",
+    "slug": "10-game-changing-marketing-strategies-with-whatsApp-business-aPI",
+    "category": "WhatsApp Service",
+    "date": "2024-12-20",
+    "description": "Discover 10 effective marketing strategies using WhatsApp Business API. Learn how to boost sales, engage customers, and streamline communication effortlessly." ,
+     "image":"/Images/10 Proven Marketing Strategies Using WhatsApp  Business API.jpg"
+   },
+  
+  {
+  "id": 7,
+  "title": "WhatsApp Business API vs. Free WhatsApp Business App: Which One Is Right for You?",
+  "componentKey": "Dec19",
+  "slug": "whatsApp-business-aPI-vs-free-whatsApp-business-app-which-one-is-right-for-you",
+  "category": "WhatsApp Service",
+  "date": "2024-12-19",
+  "description": "Discover the key differences between WhatsApp Business API and the free WhatsApp Business App to determine which solution best fits your business needs and growth plans." ,
+   "image":"/Images/WhatsApp Business API vs. Free WhatsApp Business App_ Which One Is Right for You.jpg"
+},
+  {
+    "id": 6,
+    "title": "Step-by-Step Guide to Integrating WhatsApp Business API with Your CRM",
+    "componentKey": "Dec18",
+    "slug": "step-by-step-guide-to-integrating-whatsApp-business-aPI-with-your-cRM",
+    "category": "WhatsApp Service",
+    "date": "2024-12-18",
+    "description": "Learn how to integrate WhatsApp Business API with your CRM. Follow this step-by-step guide to streamline communication, automate workflows, and boost customer engagement." ,
+     "image":"/Images/Step-by-Step Guide to Integrating WhatsApp Business API with Your CRM.jpg"
+    
+    
+  },
+  {
+    "id": 5,
+    "title": "Top 10 Benefits of WhatsApp Chatbots for Small Businesses in Bangalore  ",
+    "componentKey": "Dec17",
+    "slug": "top-10-benefits-of-whatsApp-chatbots-for-small-businesses-in-bangalore",
+    "category": "WhatsApp Service",
+    "date": "2024-12-17",
+    "description": "Discover how WhatsApp chatbots can transform small businesses in Bangalore with 24/7 customer support, cost-effective automation, personalized interactions, and more. ",
+    "image":"/Images/Top 10 Benefits of WhatsApp Chatbots   for Small Businesses in Bangalore.jpg"
+   },
+ 
+  {
+    "id": 4,
+    "title": "WhatsApp Business API Pricing in India Everything You Need to Know  ",
+    "componentKey": "Dec16",
+    "slug": "whatsApp-business-aPI-pricing-in-india-everything-you-need-to-know",
+    "category": "WhatsApp Service",
+    "date": "2024-12-16",
+    "description": "Discover everything about WhatsApp Business API pricing in India. Learn about session and template messaging costs, BSP fees, and tips to optimize your communication expenses.",
+    "image": "/Images/WhatsApp Business API Pricing in India_ Everything You Need to Know.jpg"
+   },
+  {
+    "id": 3,
+    "title": "How to Use WhatsApp Business API to Automate Customer Communication  ",
+    "componentKey": "Dec15",
+    "slug": "how-to-use-whatsApp-business-aPI-to-automate-customer-communication",
+    "category": "WhatsApp Service",
+    "date": "2024-12-15",
+    "description": "Discover how to automate customer communication with WhatsApp Business API. Learn key features, benefits, and steps to streamline interactions and boost efficiency.",
+    "image": "/Images/How to Use WhatsApp Business API to Automate Customer Communication.jpg"
+    },
   {
     "id": 2,
     "title": "What is WhatsApp Business API? A Complete Guide for Indian Businesses",
@@ -17,6 +216,16 @@
     "category": "WhatsApp Service",
     "date": "2024-12-14",
     "description": "Learn about WhatsApp Business API and how it empowers Indian businesses to streamline communication, boost sales, and enhance customer support.",
-    "image": "/images/blog.jpg"
+    "image": "/Images/What is WhatsApp Business API_   Complete Guide for Indian Businesses.jpg"
+  },
+  {
+    "id": 1,
+    "title": "How WhatsApp Chatbots Can Revolutionize Customer Support for Indian SMEs",
+    "componentKey": "Dec13",
+    "slug": "how-whatsapp-chatbots-can-revolutionize-customer-support-for-indian-smes",
+    "category": "WhatsApp Service",
+    "date": "2024-02-18",
+    "description": "Learn how WhatsApp chatbots are changing customer support in India.",
+    "image": "/Images/How WhatsApp Chatbots Can Revolutionize Customer Support for Indian SMEs.jpg"
   }
 ]

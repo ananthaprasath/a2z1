@@ -29,7 +29,7 @@ const Dec13 = () => {
           market.
         </p>
         <div>
-        <img className='w-100 mt-3' width="px" height={"auto"} src="/bimages/how-whatsApp-chatbots(2).jpg" alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"} src="/Images/How WhatsApp Chatbots Can Revolutionize Customer Support for Indian SMEs.jpg" alt="Descriptive alt text" />
       </div>
       </section>
 
@@ -142,7 +142,7 @@ const Dec13 = () => {
             </li>
           </ul>
           <div>
-        <img className='w-100 mt-3' width="px" height={"auto"}  src="/bimages/how-whatsApp-chatbots (3).jpg" alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"}  src="/Images/How WhatsApp Chatbots Can Revolutionize Customer Support for Indian SMEs (2).jpg" alt="Descriptive alt text" />
       </div>
         </div>
         <p className="para-color"></p>
@@ -195,7 +195,7 @@ const Dec13 = () => {
           </li>
         </ul>
         <div>
-        <img className='w-100 mt-3' width="px" height={"auto"}  src="/bimages/how-whatsApp-chatbots .jpg" alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"}  src="/Images/How WhatsApp Chatbots Can Revolutionize Customer Support for Indian SMEs (3).jpg" alt="Descriptive alt text" />
       </div>
       </section>
 

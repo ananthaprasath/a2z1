@@ -18,7 +18,7 @@ const Home = () => {
       <div className="container">
         <div className="row align-items-center">
           {/* Left Content */}
-          <div className="col-md-6" data-aos="fade-right">
+          <div className="col-md-6 para-color" data-aos="fade-right">
             <h1 className="fw-bold mb-4">
               Elevate Your Business with{" "}
               <span className="text-success">Cloud WhatsApp API</span>
@@ -28,7 +28,7 @@ const Home = () => {
               Cloud WhatsApp API. Enjoy effortless connectivity, automation as
               well as scalability on a single trusted platform.
             </p>
-            <ul className="list-unstyled fw-bold mt-4">
+            <ul className="list-unstyled  mt-4">
               <li className="d-flex align-items-start mb-3">
                 <i className="bi bi-check-circle-fill text-success me-3"></i>
                 <span>Automate customer support with intelligent chatbots.</span>

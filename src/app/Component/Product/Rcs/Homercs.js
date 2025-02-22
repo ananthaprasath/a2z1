@@ -33,7 +33,7 @@ const Home = () => {
               send and receive media including high-resolution images,
               high-definition videos, and much more.
             </p>
-            <ul className="list-unstyled para-color fw-bold">
+            <ul className="list-unstyled para-color">
               <li className="mb-2 d-flex align-items-center">
                 <i className="bi bi-check-circle-fill text-success me-3"></i>
                 <span>Send messages with rich images and videos.</span>

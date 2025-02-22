@@ -30,7 +30,6 @@ function BlogListContent() {
   
   return (
     <div className="container py-5">
-      <h1 className="text-center mb-4">Our Blog</h1>
       
       {/* Category Filter */}
       <div className="mb-4 text-center">
@@ -61,7 +60,7 @@ function BlogListContent() {
                   <div className="card-body">
                     <h5 className="card-title">{blog.title}</h5>
                     <p className="card-text text-muted">{blog.category}</p>
-                    <p>{blog.description}</p>
+                    <p className="para-color">{blog.description}</p>
                     <button className="btn btn-primary">Read More</button>
                   </div>
                 </div>
