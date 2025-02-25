@@ -67,15 +67,16 @@ const Services = () => {
       }}
     >
       <div className="container">
-        <div className="row align-items-center aos">
+        <div className="row aos">
           {/* Left Image Section */}
           <div className="col-md-6" data-aos="zoom-in-right">
           <Image
-    src="/image/feature-icon/hero-girl.png"
-    alt="Bulk SMS Services"
-    fill
-    style={{ borderRadius: "10px" }}
-  />
+  src="/image/feature-icon/hero-girl.png"
+  alt="Bulk SMS Services"
+  width={450}
+  height={640}
+  style={{ borderRadius: "10px" }}
+/>
           </div>
 
           {/* Right Content Section */}

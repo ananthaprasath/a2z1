@@ -18,7 +18,7 @@ const FAQHome = ({ data }) => {
 
   return (
     <div className="bg2">
-      <div className="container py-5">
+      <div className="container py-5 aos">
         {/* Title Section */}
         <div className="text-center mb-4">
           <h3 className="fw-bold text-dark">{title}</h3>
@@ -26,30 +26,32 @@ const FAQHome = ({ data }) => {
         </div>
 
         {/* Accordion Section */}
-        <div className="accordion" id="faqAccordion">
+        <div className="accordion aos" id="faqAccordion">
           {faqs && faqs.length > 0 ? (
             faqs.map((faq) => (
-              <div className="accordion-item" data-aos="zoom-in" key={faq.id}>
-                <h2 className="accordion-header" id={`heading${faq.id}`}>
+              <div className="accordion-item mb-1" data-aos="zoom-in-right" key={faq.id}>
+                <h2 className="accordion-header" data-aos="zoom-in-up" id={`heading${faq.id}`}>
                   <button
-                    className="accordion-button fw-bold text-dark bg-white"
+                    className="accordion-button fw-bold text-dark bg-white border-0 py-4"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target={`#collapse${faq.id}`}
-                    aria-expanded="false"
+                    aria-expanded={faq.id === 1 ? "true" : "false"}
                     aria-controls={`collapse${faq.id}`}
                   >
-                    <i className={`me-2 ${faq.icon} text-primary`}></i>
+                   <i className={`me-2 ${faq.icon}`} style={{ color: "#007bff" }}></i>
                     {faq.question}
                   </button>
                 </h2>
                 <div
                   id={`collapse${faq.id}`}
-                  className="accordion-collapse collapse"
+                  className={`accordion-collapse collapse ${faq.id === 1 ? "show" : ""}`}
                   aria-labelledby={`heading${faq.id}`}
                   data-bs-parent="#faqAccordion"
                 >
-                  <div className="accordion-body">{faq.answer}</div>
+                  <div className="accordion-body para-color" style={{ color: "#333" }}>
+                    {faq.answer}
+                  </div>
                 </div>
               </div>
             ))
@@ -59,6 +61,7 @@ const FAQHome = ({ data }) => {
         </div>
       </div>
     </div>
+
   );
 };
 

@@ -19,7 +19,7 @@ const ServiceHome = ({ data }) => {
                 }`}
               >
                 {/* Text Section */}
-                <div className="col-md-6 p-md-5 color" data-aos="zoom-in-right">
+                <div className="col-md-6 p-md-5 para-color" data-aos="zoom-in-right">
                   <h2 className="fw-bold mb-4">{item.title}</h2>
                   <ul className="list-unstyled align">
                     {item.description.map((desc, i) => (

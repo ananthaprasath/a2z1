@@ -1,5 +1,5 @@
 "use client";
-
+import "./Header.css";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Left Section - Company Info */}
           <div className="col-md-4 mb-4">
             <img src="/image/logo.png" alt="A2Z SMS Logo" width="80px" />
-            <p className="pt-1">
+            <p className="pt-1 para-color">
               Bulk SMS is the most popular marketing method compared to other
               marketing methods. It is trusted, reliable, and cost-effective.
             </p>
@@ -32,9 +32,9 @@ const Footer = () => {
           {/* Center - Company Links */}
           <div className="col-5 col-md-2 mx-3 mb-4">
             <h5 className="fw-bold">Company</h5>
-            <ul className="list-unstyled" id="line-space">
+            <ul className="list-unstyled" id="line-space1">
               <li>
-                <Link href="/" className="text-white text-decoration-none hover  pt-2 ">
+                <Link href="/" className="text-white text-decoration-none hover  pt-5 ">
                   <FontAwesomeIcon icon={faAngleDoubleRight} className="me-2" />
                   Home
                 </Link>
@@ -69,7 +69,7 @@ const Footer = () => {
           {/* SMS Plans Links */}
           <div className="col-5 col-md-2 mx-3 mb-4">
             <h5 className="fw-bold">SMS Plans</h5>
-            <ul className="list-unstyled" id="line-space">
+            <ul className="list-unstyled" id="line-space1">
               <li>
                 <Link href="/bulksms" className="text-white text-decoration-none hover ">
                   <FontAwesomeIcon icon={faAngleDoubleRight} className="me-2" />
@@ -122,16 +122,16 @@ const Footer = () => {
               </button>
             </div>
             <div className="d-flex mt-4">
-              <Link href="https://www.facebook.com/A2zsmsservices/" className="text-white me-3 fs-5 bg-primary rounded-circle d-flex justify-content-center align-items-center" style={{ width: "40px", height: "40px" }}>
+              <Link href="https://www.facebook.com/A2zsmsservices/" className="text-white me-3 fs-5 bg-primary rounded-circle d-flex justify-content-center align-items-center" target="_blank" style={{ width: "40px", height: "40px" }}>
                 <FontAwesomeIcon icon={faFacebookF} />
               </Link>
-              <Link href="https://in.linkedin.com/in/vinay-reddy-76337b336" className="text-white me-3 fs-5 bg-primary rounded-circle d-flex justify-content-center align-items-center" style={{ width: "40px", height: "40px" }}>
+              <Link href="https://in.linkedin.com/in/vinay-reddy-76337b336" className="text-white me-3 fs-5 bg-primary rounded-circle d-flex justify-content-center align-items-center" target="_blank" style={{ width: "40px", height: "40px" }}>
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </Link>
-              <Link href="https://wa.me/918431086185?text=Hi" className="text-white me-3 fs-5 bg-success rounded-circle d-flex justify-content-center align-items-center" style={{ width: "40px", height: "40px" }}>
+              <Link href="https://wa.me/918431086185?text=Hi" className="text-white me-3 fs-5 bg-success rounded-circle d-flex justify-content-center align-items-center" target="_blank" style={{ width: "40px", height: "40px" }}>
                 <FontAwesomeIcon icon={faWhatsapp} />
               </Link>
-              <Link href="https://www.youtube.com/@a2zsms" className="text-white fs-5 bg-danger rounded-circle d-flex justify-content-center align-items-center" style={{ width: "40px", height: "40px" }}>
+              <Link href="https://www.youtube.com/@a2zsms" className="text-white fs-5 bg-danger rounded-circle d-flex justify-content-center align-items-center" target="_blank" style={{ width: "40px", height: "40px" }}>
                 <FontAwesomeIcon icon={faYoutube} />
               </Link>
             </div>
@@ -152,7 +152,7 @@ const Footer = () => {
             <div className="col-md-6 text-center text-md-end">
               <p className="mb-0">
                 <Link href="/terms/" className="text-white text-decoration-none me-3" style={{ fontWeight: "500" }}>Terms & Condition</Link>
-                <Link href="/privacy/" className="text-white text-decoration-none" style={{ fontWeight: "500" }}>Privacy Policy</Link>
+                <Link href="/privacy" className="text-white text-decoration-none" style={{ fontWeight: "500" }}>Privacy Policy</Link>
               </p>
             </div>
           </div>

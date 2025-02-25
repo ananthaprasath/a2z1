@@ -1,9 +1,5 @@
-"use client";
-
 import React, { useState, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import "./requestdemo.css";
+import './requestdemo.css'
 
 const Timeline = () => {
   const [activeStep, setActiveStep] = useState(1);
@@ -65,78 +61,79 @@ const Timeline = () => {
       `,
     },
   ];
+  
 
   useEffect(() => {
-    AOS.init({ duration: 1200, once: true });
+    setActiveStep(1);
   }, []);
 
   return (
     <div className="bg-light">
       <div className="container py-5 aos">
         <h1 className="text-center mb-4">Request a Free Demo Today!</h1>
-
-        {/* Timeline */}
         <div className="position-relative d-flex justify-content-between align-items-center">
           {/* Timeline Line */}
-          <div
-            data-aos="zoom-in-left"
-            className="position-absolute timeline"
-            style={{
-              height: "4px",
-              background: "grey",
-              width: "100%",
-              zIndex: 0,
-            }}
-          >
-            <div
-              className="shadow"
-              style={{
-                width: `${((activeStep - 1) / (steps.length - 1)) * 100}%`,
-                height: "100%",
-                background: "#007bff",
-                transition: "width 0.3s ease",
-              }}
-            ></div>
-          </div>
-
-          {/* Timeline Steps */}
           {steps.map((step) => (
+
+          <div>
             <div
-              key={step.id}
-              data-aos="zoom-in-left"
-              className="text-center"
-              onClick={() => setActiveStep(step.id)}
+            data-aos='zoom-in-left'
+              className="position-absolute timeline "
               style={{
-                cursor: "pointer",
-                flex: 1,
-                position: "relative",
-                zIndex: 2,
+                height: "4px",
+                background: "grey",
+                zIndex: 0,
               }}
             >
               <div
-                className={`rounded-circle shadow ${
-                  activeStep === step.id ? "bg-primary text-white" : "bg-light text-dark"
-                }`}
+              className="shadow"
                 style={{
-                  width: "50px",
-                  height: "50px",
-                  lineHeight: "50px",
-                  margin: "0 auto",
-                  fontWeight: "bold",
+                  width: `${((activeStep - 1) / (steps.length - 1)) * 100}%`,
+                  height: "100%",
+                  background: "#007bff",
+                  transition: "width 0.3s ease",
+                }}
+              ></div>
+            </div>
+            
+            {/* Timeline Steps */}
+              <div 
+                key={step.id}
+                data-aos='zoom-in-left'
+                className={`text-center`}
+                onClick={() => setActiveStep(step.id)}
+                style={{
+                  cursor: "pointer",
+                  flex: 1,
+                  position: "relative",
+                  zIndex:2,
                 }}
               >
-                {step.id}
+                <div
+                  className={`rounded-circle shadow ${
+                    activeStep === step.id ? "bg-primary text-white" : "bg-light text-dark"
+                  }`}
+                  style={{
+                    width: "50px",
+                    height: "50px",
+                    lineHeight: "50px",
+                    margin: "0 auto",
+                    fontWeight: "bold",
+                  }}
+                >
+                  {step.id}
+                </div>
+                <p
+                  className={`mt-2 ${activeStep === step.id ? "text-primary fw-bold" : "text-dark"}`}
+                  style={{ fontSize: "14px" }}
+                >
+                  {step.title}
+                </p>
               </div>
-              <p
-                className={`mt-2 ${activeStep === step.id ? "text-primary fw-bold" : "text-dark"}`}
-                style={{ fontSize: "14px" }}
-              >
-                {step.title}
-              </p>
-            </div>
+          </div>
           ))}
         </div>
-
+      
         {/* Active Step Description */}
         <div className="mt-4 text-center para-color">
           <h5 className="text-primary">{steps.find((step) => step.id === activeStep).title}</h5>

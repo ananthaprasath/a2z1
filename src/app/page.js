@@ -1,7 +1,7 @@
 import Home from './Component/Home/Home';
 
 export const metadata = {
-  title: "A2ZSMS | Bulk SMS & WhatsApp API Solutions in Bangaloressss",
+  title: "A2ZSMS | Bulk SMS & WhatsApp API Solutions in Bangalore",
   description: "Get reliable Bulk SMS and WhatsApp API solutions in Bangalore with A2ZSMS.",
   keywords: "Bulk SMS service, WhatsApp messaging API, business communication solutions, SMS marketing, WhatsApp API solutions in Bangalore",
   authors: [{ name: "A2ZSMS", url: "https://www.a2zsms.in" }],
